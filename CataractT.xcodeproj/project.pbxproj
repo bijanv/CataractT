@@ -1,0 +1,820 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		121AEAC812ECBCA20024EC07 /* CataractTViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 121AEAC712ECBCA20024EC07 /* CataractTViewController.mm */; };
+		121AEB6112ECC13C0024EC07 /* DilatedPupil1_crop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB0E12ECC1390024EC07 /* DilatedPupil1_crop.jpg */; };
+		121AEB6212ECC13C0024EC07 /* DilatedPupil2_crop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB0F12ECC1390024EC07 /* DilatedPupil2_crop.jpg */; };
+		121AEB6312ECC13C0024EC07 /* DilatedPupil3_crop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB1012ECC1390024EC07 /* DilatedPupil3_crop.jpg */; };
+		121AEB6412ECC13C0024EC07 /* DilatedPupil4_crop.gif in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB1112ECC1390024EC07 /* DilatedPupil4_crop.gif */; };
+		121AEB6512ECC13C0024EC07 /* DilatedPupil5_crop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB1212ECC1390024EC07 /* DilatedPupil5_crop.jpg */; };
+		121AEB6612ECC13C0024EC07 /* DilatedPupil6_crop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB1312ECC1390024EC07 /* DilatedPupil6_crop.jpg */; };
+		121AEB6712ECC13C0024EC07 /* DilatedPupil1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB1412ECC1390024EC07 /* DilatedPupil1.jpg */; };
+		121AEB6812ECC13C0024EC07 /* DilatedPupil2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB1512ECC1390024EC07 /* DilatedPupil2.jpg */; };
+		121AEB6912ECC13C0024EC07 /* DilatedPupil3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB1612ECC1390024EC07 /* DilatedPupil3.jpg */; };
+		121AEB6A12ECC13C0024EC07 /* DilatedPupil4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB1712ECC13A0024EC07 /* DilatedPupil4.jpg */; };
+		121AEB6B12ECC13C0024EC07 /* DilatedPupil5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB1812ECC13A0024EC07 /* DilatedPupil5.jpg */; };
+		121AEB6C12ECC13C0024EC07 /* DilatedPupil6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB1912ECC13A0024EC07 /* DilatedPupil6.jpg */; };
+		121AEB6D12ECC13C0024EC07 /* MatureCataract_1_crop.png in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB1C12ECC13A0024EC07 /* MatureCataract_1_crop.png */; };
+		121AEB6E12ECC13C0024EC07 /* MatureCataract_2_crop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB1D12ECC13A0024EC07 /* MatureCataract_2_crop.jpg */; };
+		121AEB6F12ECC13C0024EC07 /* MatureCataract_3_crop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB1E12ECC13A0024EC07 /* MatureCataract_3_crop.jpg */; };
+		121AEB7012ECC13C0024EC07 /* MatureCataract_4_crop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB1F12ECC13A0024EC07 /* MatureCataract_4_crop.jpg */; };
+		121AEB7112ECC13C0024EC07 /* MatureCataract_5_crop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB2012ECC13A0024EC07 /* MatureCataract_5_crop.jpg */; };
+		121AEB7212ECC13C0024EC07 /* MatureCataract_6_crop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB2112ECC13A0024EC07 /* MatureCataract_6_crop.jpg */; };
+		121AEB7312ECC13C0024EC07 /* MatureCataract_8_crop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB2212ECC13A0024EC07 /* MatureCataract_8_crop.jpg */; };
+		121AEB7412ECC13C0024EC07 /* MatureCataract_1.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB2312ECC13A0024EC07 /* MatureCataract_1.JPG */; };
+		121AEB7512ECC13C0024EC07 /* MatureCataract_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB2412ECC13A0024EC07 /* MatureCataract_2.jpg */; };
+		121AEB7612ECC13C0024EC07 /* MatureCataract_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB2512ECC13A0024EC07 /* MatureCataract_3.jpg */; };
+		121AEB7712ECC13C0024EC07 /* MatureCataract_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB2612ECC13A0024EC07 /* MatureCataract_4.jpg */; };
+		121AEB7812ECC13C0024EC07 /* MatureCataract_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB2712ECC13A0024EC07 /* MatureCataract_5.jpg */; };
+		121AEB7912ECC13C0024EC07 /* MatureCataract_6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB2812ECC13A0024EC07 /* MatureCataract_6.jpg */; };
+		121AEB7A12ECC13C0024EC07 /* MatureCataract_8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB2912ECC13A0024EC07 /* MatureCataract_8.jpg */; };
+		121AEB8312ECC13C0024EC07 /* eye2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB3812ECC13B0024EC07 /* eye2.jpg */; };
+		121AEB8412ECC13C0024EC07 /* eye3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB3912ECC13B0024EC07 /* eye3.jpg */; };
+		121AEB8512ECC13C0024EC07 /* eye4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB3A12ECC13B0024EC07 /* eye4.jpg */; };
+		121AEB8612ECC13C0024EC07 /* eye5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB3B12ECC13B0024EC07 /* eye5.jpg */; };
+		121AEB8712ECC13C0024EC07 /* immature-senile-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB3C12ECC13B0024EC07 /* immature-senile-1.jpg */; };
+		121AEB8812ECC13C0024EC07 /* mature-senile-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB3D12ECC13B0024EC07 /* mature-senile-1.jpg */; };
+		121AEB8912ECC13C0024EC07 /* mature-senile-2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB3E12ECC13B0024EC07 /* mature-senile-2.jpg */; };
+		121AEB8A12ECC13C0024EC07 /* anterior-polar-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB3F12ECC13B0024EC07 /* anterior-polar-1.png */; };
+		121AEB8B12ECC13C0024EC07 /* coppock-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB4012ECC13B0024EC07 /* coppock-1.png */; };
+		121AEB8C12ECC13C0024EC07 /* coronary-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB4112ECC13B0024EC07 /* coronary-1.png */; };
+		121AEB8D12ECC13C0024EC07 /* coronary-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB4212ECC13B0024EC07 /* coronary-2.png */; };
+		121AEB8E12ECC13C0024EC07 /* anterior-polar-1_crop.png in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB4412ECC13B0024EC07 /* anterior-polar-1_crop.png */; };
+		121AEB8F12ECC13C0024EC07 /* coronary-1_crop.png in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB4512ECC13C0024EC07 /* coronary-1_crop.png */; };
+		121AEB9012ECC13C0024EC07 /* coronary-2_crop.png in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB4612ECC13C0024EC07 /* coronary-2_crop.png */; };
+		121AEB9112ECC13C0024EC07 /* cuneiform-cortical-1_crop.png in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB4712ECC13C0024EC07 /* cuneiform-cortical-1_crop.png */; };
+		121AEB9312ECC13C0024EC07 /* morgagnian-1_crop.png in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB4912ECC13C0024EC07 /* morgagnian-1_crop.png */; };
+		121AEB9412ECC13C0024EC07 /* punctate-cerulea-1_crop.png in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB4A12ECC13C0024EC07 /* punctate-cerulea-1_crop.png */; };
+		121AEB9512ECC13C0024EC07 /* sutural-1_crop.png in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB4B12ECC13C0024EC07 /* sutural-1_crop.png */; };
+		121AEB9612ECC13C0024EC07 /* sutural-2_crop.png in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB4C12ECC13C0024EC07 /* sutural-2_crop.png */; };
+		121AEB9712ECC13C0024EC07 /* zonular-1_crop.png in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB4D12ECC13C0024EC07 /* zonular-1_crop.png */; };
+		121AEB9812ECC13C0024EC07 /* cuneiform-cortical-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB4E12ECC13C0024EC07 /* cuneiform-cortical-1.png */; };
+		121AEB9912ECC13C0024EC07 /* intumescent-immature-senile.png in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB4F12ECC13C0024EC07 /* intumescent-immature-senile.png */; };
+		121AEB9A12ECC13C0024EC07 /* lamellar-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB5012ECC13C0024EC07 /* lamellar-1.png */; };
+		121AEB9B12ECC13C0024EC07 /* mature-senile-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB5112ECC13C0024EC07 /* mature-senile-1.png */; };
+		121AEB9C12ECC13C0024EC07 /* morgagnian-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB5212ECC13C0024EC07 /* morgagnian-1.png */; };
+		121AEB9D12ECC13C0024EC07 /* punctate-cerulea-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB5312ECC13C0024EC07 /* punctate-cerulea-1.png */; };
+		121AEB9E12ECC13C0024EC07 /* red-anterior-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB5412ECC13C0024EC07 /* red-anterior-1.png */; };
+		121AEB9F12ECC13C0024EC07 /* red-cortical-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB5512ECC13C0024EC07 /* red-cortical-1.png */; };
+		121AEBA012ECC13C0024EC07 /* red-sutural-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB5612ECC13C0024EC07 /* red-sutural-1.png */; };
+		121AEBA112ECC13C0024EC07 /* red-unk-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB5712ECC13C0024EC07 /* red-unk-1.png */; };
+		121AEBA212ECC13C0024EC07 /* red-unk-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB5812ECC13C0024EC07 /* red-unk-2.png */; };
+		121AEBA312ECC13C0024EC07 /* red-unk-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB5912ECC13C0024EC07 /* red-unk-3.png */; };
+		121AEBA412ECC13C0024EC07 /* senile-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB5A12ECC13C0024EC07 /* senile-1.png */; };
+		121AEBA512ECC13C0024EC07 /* senile-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB5B12ECC13C0024EC07 /* senile-2.png */; };
+		121AEBA612ECC13C0024EC07 /* sutural-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB5C12ECC13C0024EC07 /* sutural-1.png */; };
+		121AEBA712ECC13C0024EC07 /* sutural-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB5D12ECC13C0024EC07 /* sutural-2.png */; };
+		121AEBA812ECC13C0024EC07 /* sutural-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB5E12ECC13C0024EC07 /* sutural-3.png */; };
+		121AEBA912ECC13C0024EC07 /* unk-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB5F12ECC13C0024EC07 /* unk-1.png */; };
+		121AEBAA12ECC13C0024EC07 /* zonular-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 121AEB6012ECC13C0024EC07 /* zonular-1.png */; };
+		1D3623260D0F684500981E51 /* CataractTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* CataractTAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* CataractTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* CataractTViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		BC0A8D7012E2B6D30094E749 /* EditImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0A8D6E12E2B6D30094E749 /* EditImageViewController.m */; };
+		BC0A8D7112E2B6D30094E749 /* EditImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC0A8D6F12E2B6D30094E749 /* EditImageViewController.xib */; };
+		BC0A8FF612E3C0750094E749 /* AlgorithmRefineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC0A8FF512E3C0750094E749 /* AlgorithmRefineViewController.xib */; };
+		BC0A8FFB12E3C0830094E749 /* AlgorithmRefineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0A8FFA12E3C0830094E749 /* AlgorithmRefineViewController.m */; };
+		BC0A903612E3D82C0094E749 /* CropDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0A903512E3D82C0094E749 /* CropDrawView.m */; };
+		BC66342212F4DAE3007228D9 /* CameraImages.m in Sources */ = {isa = PBXBuildFile; fileRef = BC66341B12F4DAE3007228D9 /* CameraImages.m */; };
+		BC66342312F4DAE3007228D9 /* UIImageAlpha.m in Sources */ = {isa = PBXBuildFile; fileRef = BC66341D12F4DAE3007228D9 /* UIImageAlpha.m */; };
+		BC66342412F4DAE3007228D9 /* UIImageResize.m in Sources */ = {isa = PBXBuildFile; fileRef = BC66341F12F4DAE3007228D9 /* UIImageResize.m */; };
+		BC66342512F4DAE3007228D9 /* UIImageRoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = BC66342112F4DAE3007228D9 /* UIImageRoundedCorner.m */; };
+		BCC886C0133827A20074D26B /* cataractT.png in Resources */ = {isa = PBXBuildFile; fileRef = BCC886BF133827A20074D26B /* cataractT.png */; };
+		E140A38A12EC8D8200F84896 /* whiteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = E140A38812EC8D8200F84896 /* whiteButton.png */; };
+		E140A38B12EC8D8200F84896 /* blueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = E140A38912EC8D8200F84896 /* blueButton.png */; };
+		E163078112F48BDB009C746A /* DiagnosisViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = E163077F12F48BDB009C746A /* DiagnosisViewController.mm */; };
+		E163078212F48BDB009C746A /* DiagnosisViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E163078012F48BDB009C746A /* DiagnosisViewController.xib */; };
+		E170105012F4C5A7007CC3AC /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = E170104512F4C5A7007CC3AC /* 0.png */; };
+		E170105112F4C5A7007CC3AC /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = E170104612F4C5A7007CC3AC /* 1.png */; };
+		E170105212F4C5A7007CC3AC /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = E170104712F4C5A7007CC3AC /* 10.png */; };
+		E170105312F4C5A7007CC3AC /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = E170104812F4C5A7007CC3AC /* 2.png */; };
+		E170105412F4C5A7007CC3AC /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = E170104912F4C5A7007CC3AC /* 3.png */; };
+		E170105512F4C5A7007CC3AC /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = E170104A12F4C5A7007CC3AC /* 4.png */; };
+		E170105612F4C5A7007CC3AC /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = E170104B12F4C5A7007CC3AC /* 5.png */; };
+		E170105712F4C5A7007CC3AC /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = E170104C12F4C5A7007CC3AC /* 6.png */; };
+		E170105812F4C5A7007CC3AC /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = E170104D12F4C5A7007CC3AC /* 7.png */; };
+		E170105912F4C5A7007CC3AC /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = E170104E12F4C5A7007CC3AC /* 8.png */; };
+		E170105A12F4C5A7007CC3AC /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = E170104F12F4C5A7007CC3AC /* 9.png */; };
+		E170106112F4C928007CC3AC /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = E170106012F4C928007CC3AC /* 10.png */; };
+		E170108512F4CC39007CC3AC /* graphBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = E170108412F4CC39007CC3AC /* graphBackground.png */; };
+		E1E369A2132036C5004DD2AB /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1E369A1132036C5004DD2AB /* MessageUI.framework */; };
+		E1FBD10112E89EE2006D0954 /* Image.mm in Sources */ = {isa = PBXBuildFile; fileRef = E1FBD0FE12E89EE2006D0954 /* Image.mm */; };
+		E1FBD10212E89EE2006D0954 /* ImageProcessingController.mm in Sources */ = {isa = PBXBuildFile; fileRef = E1FBD10012E89EE2006D0954 /* ImageProcessingController.mm */; };
+		F4331A8912EF6C05000C916F /* AVCamCaptureManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F4331A8412EF6C05000C916F /* AVCamCaptureManager.m */; };
+		F4331A8A12EF6C05000C916F /* AVCamPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4331A8612EF6C05000C916F /* AVCamPreviewView.m */; };
+		F4331A8B12EF6C05000C916F /* AVCamViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4331A8812EF6C05000C916F /* AVCamViewController.m */; };
+		F4331A8D12EF6C12000C916F /* AVCamViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4331A8C12EF6C12000C916F /* AVCamViewController.xib */; };
+		F4331A9212EF6C2D000C916F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F4331A8E12EF6C2D000C916F /* Default.png */; };
+		F4331A9312EF6C2D000C916F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4331A8F12EF6C2D000C916F /* Default@2x.png */; };
+		F4331A9412EF6C2D000C916F /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F4331A9012EF6C2D000C916F /* Icon.png */; };
+		F4331A9512EF6C2D000C916F /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F4331A9112EF6C2D000C916F /* Icon@2x.png */; };
+		F4331AA012EF6CC8000C916F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4331A9F12EF6CC8000C916F /* AVFoundation.framework */; };
+		F4331AA412EF6CEA000C916F /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4331AA312EF6CEA000C916F /* AssetsLibrary.framework */; };
+		F4331AA612EF6CEA000C916F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4331AA512EF6CEA000C916F /* MobileCoreServices.framework */; };
+		F4331AC412EF6D2E000C916F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4331AC312EF6D2E000C916F /* CoreData.framework */; };
+		F4331AC612EF6D2E000C916F /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4331AC512EF6D2E000C916F /* CoreMedia.framework */; };
+		F4331AC812EF6D2E000C916F /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4331AC712EF6D2E000C916F /* CoreVideo.framework */; };
+		F4331ACC12EF6D5F000C916F /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4331ACB12EF6D5F000C916F /* CoreVideo.framework */; };
+		F4331B1E12EF6D9F000C916F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4331B1D12EF6D9F000C916F /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		121AEAC712ECBCA20024EC07 /* CataractTViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CataractTViewController.mm; sourceTree = "<group>"; };
+		121AEB0E12ECC1390024EC07 /* DilatedPupil1_crop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DilatedPupil1_crop.jpg; sourceTree = "<group>"; };
+		121AEB0F12ECC1390024EC07 /* DilatedPupil2_crop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DilatedPupil2_crop.jpg; sourceTree = "<group>"; };
+		121AEB1012ECC1390024EC07 /* DilatedPupil3_crop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DilatedPupil3_crop.jpg; sourceTree = "<group>"; };
+		121AEB1112ECC1390024EC07 /* DilatedPupil4_crop.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = DilatedPupil4_crop.gif; sourceTree = "<group>"; };
+		121AEB1212ECC1390024EC07 /* DilatedPupil5_crop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DilatedPupil5_crop.jpg; sourceTree = "<group>"; };
+		121AEB1312ECC1390024EC07 /* DilatedPupil6_crop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DilatedPupil6_crop.jpg; sourceTree = "<group>"; };
+		121AEB1412ECC1390024EC07 /* DilatedPupil1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DilatedPupil1.jpg; sourceTree = "<group>"; };
+		121AEB1512ECC1390024EC07 /* DilatedPupil2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DilatedPupil2.jpg; sourceTree = "<group>"; };
+		121AEB1612ECC1390024EC07 /* DilatedPupil3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DilatedPupil3.jpg; sourceTree = "<group>"; };
+		121AEB1712ECC13A0024EC07 /* DilatedPupil4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DilatedPupil4.jpg; sourceTree = "<group>"; };
+		121AEB1812ECC13A0024EC07 /* DilatedPupil5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DilatedPupil5.jpg; sourceTree = "<group>"; };
+		121AEB1912ECC13A0024EC07 /* DilatedPupil6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DilatedPupil6.jpg; sourceTree = "<group>"; };
+		121AEB1C12ECC13A0024EC07 /* MatureCataract_1_crop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MatureCataract_1_crop.png; sourceTree = "<group>"; };
+		121AEB1D12ECC13A0024EC07 /* MatureCataract_2_crop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MatureCataract_2_crop.jpg; sourceTree = "<group>"; };
+		121AEB1E12ECC13A0024EC07 /* MatureCataract_3_crop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MatureCataract_3_crop.jpg; sourceTree = "<group>"; };
+		121AEB1F12ECC13A0024EC07 /* MatureCataract_4_crop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MatureCataract_4_crop.jpg; sourceTree = "<group>"; };
+		121AEB2012ECC13A0024EC07 /* MatureCataract_5_crop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MatureCataract_5_crop.jpg; sourceTree = "<group>"; };
+		121AEB2112ECC13A0024EC07 /* MatureCataract_6_crop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MatureCataract_6_crop.jpg; sourceTree = "<group>"; };
+		121AEB2212ECC13A0024EC07 /* MatureCataract_8_crop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MatureCataract_8_crop.jpg; sourceTree = "<group>"; };
+		121AEB2312ECC13A0024EC07 /* MatureCataract_1.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MatureCataract_1.JPG; sourceTree = "<group>"; };
+		121AEB2412ECC13A0024EC07 /* MatureCataract_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MatureCataract_2.jpg; sourceTree = "<group>"; };
+		121AEB2512ECC13A0024EC07 /* MatureCataract_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MatureCataract_3.jpg; sourceTree = "<group>"; };
+		121AEB2612ECC13A0024EC07 /* MatureCataract_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MatureCataract_4.jpg; sourceTree = "<group>"; };
+		121AEB2712ECC13A0024EC07 /* MatureCataract_5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MatureCataract_5.jpg; sourceTree = "<group>"; };
+		121AEB2812ECC13A0024EC07 /* MatureCataract_6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MatureCataract_6.jpg; sourceTree = "<group>"; };
+		121AEB2912ECC13A0024EC07 /* MatureCataract_8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MatureCataract_8.jpg; sourceTree = "<group>"; };
+		121AEB3812ECC13B0024EC07 /* eye2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eye2.jpg; sourceTree = "<group>"; };
+		121AEB3912ECC13B0024EC07 /* eye3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eye3.jpg; sourceTree = "<group>"; };
+		121AEB3A12ECC13B0024EC07 /* eye4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eye4.jpg; sourceTree = "<group>"; };
+		121AEB3B12ECC13B0024EC07 /* eye5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eye5.jpg; sourceTree = "<group>"; };
+		121AEB3C12ECC13B0024EC07 /* immature-senile-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "immature-senile-1.jpg"; sourceTree = "<group>"; };
+		121AEB3D12ECC13B0024EC07 /* mature-senile-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mature-senile-1.jpg"; sourceTree = "<group>"; };
+		121AEB3E12ECC13B0024EC07 /* mature-senile-2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mature-senile-2.jpg"; sourceTree = "<group>"; };
+		121AEB3F12ECC13B0024EC07 /* anterior-polar-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "anterior-polar-1.png"; sourceTree = "<group>"; };
+		121AEB4012ECC13B0024EC07 /* coppock-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coppock-1.png"; sourceTree = "<group>"; };
+		121AEB4112ECC13B0024EC07 /* coronary-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coronary-1.png"; sourceTree = "<group>"; };
+		121AEB4212ECC13B0024EC07 /* coronary-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coronary-2.png"; sourceTree = "<group>"; };
+		121AEB4412ECC13B0024EC07 /* anterior-polar-1_crop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "anterior-polar-1_crop.png"; sourceTree = "<group>"; };
+		121AEB4512ECC13C0024EC07 /* coronary-1_crop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coronary-1_crop.png"; sourceTree = "<group>"; };
+		121AEB4612ECC13C0024EC07 /* coronary-2_crop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coronary-2_crop.png"; sourceTree = "<group>"; };
+		121AEB4712ECC13C0024EC07 /* cuneiform-cortical-1_crop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cuneiform-cortical-1_crop.png"; sourceTree = "<group>"; };
+		121AEB4912ECC13C0024EC07 /* morgagnian-1_crop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "morgagnian-1_crop.png"; sourceTree = "<group>"; };
+		121AEB4A12ECC13C0024EC07 /* punctate-cerulea-1_crop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "punctate-cerulea-1_crop.png"; sourceTree = "<group>"; };
+		121AEB4B12ECC13C0024EC07 /* sutural-1_crop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sutural-1_crop.png"; sourceTree = "<group>"; };
+		121AEB4C12ECC13C0024EC07 /* sutural-2_crop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sutural-2_crop.png"; sourceTree = "<group>"; };
+		121AEB4D12ECC13C0024EC07 /* zonular-1_crop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zonular-1_crop.png"; sourceTree = "<group>"; };
+		121AEB4E12ECC13C0024EC07 /* cuneiform-cortical-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cuneiform-cortical-1.png"; sourceTree = "<group>"; };
+		121AEB4F12ECC13C0024EC07 /* intumescent-immature-senile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "intumescent-immature-senile.png"; sourceTree = "<group>"; };
+		121AEB5012ECC13C0024EC07 /* lamellar-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lamellar-1.png"; sourceTree = "<group>"; };
+		121AEB5112ECC13C0024EC07 /* mature-senile-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mature-senile-1.png"; sourceTree = "<group>"; };
+		121AEB5212ECC13C0024EC07 /* morgagnian-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "morgagnian-1.png"; sourceTree = "<group>"; };
+		121AEB5312ECC13C0024EC07 /* punctate-cerulea-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "punctate-cerulea-1.png"; sourceTree = "<group>"; };
+		121AEB5412ECC13C0024EC07 /* red-anterior-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red-anterior-1.png"; sourceTree = "<group>"; };
+		121AEB5512ECC13C0024EC07 /* red-cortical-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red-cortical-1.png"; sourceTree = "<group>"; };
+		121AEB5612ECC13C0024EC07 /* red-sutural-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red-sutural-1.png"; sourceTree = "<group>"; };
+		121AEB5712ECC13C0024EC07 /* red-unk-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red-unk-1.png"; sourceTree = "<group>"; };
+		121AEB5812ECC13C0024EC07 /* red-unk-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red-unk-2.png"; sourceTree = "<group>"; };
+		121AEB5912ECC13C0024EC07 /* red-unk-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red-unk-3.png"; sourceTree = "<group>"; };
+		121AEB5A12ECC13C0024EC07 /* senile-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "senile-1.png"; sourceTree = "<group>"; };
+		121AEB5B12ECC13C0024EC07 /* senile-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "senile-2.png"; sourceTree = "<group>"; };
+		121AEB5C12ECC13C0024EC07 /* sutural-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sutural-1.png"; sourceTree = "<group>"; };
+		121AEB5D12ECC13C0024EC07 /* sutural-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sutural-2.png"; sourceTree = "<group>"; };
+		121AEB5E12ECC13C0024EC07 /* sutural-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sutural-3.png"; sourceTree = "<group>"; };
+		121AEB5F12ECC13C0024EC07 /* unk-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unk-1.png"; sourceTree = "<group>"; };
+		121AEB6012ECC13C0024EC07 /* zonular-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zonular-1.png"; sourceTree = "<group>"; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* CataractTAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CataractTAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* CataractTAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CataractTAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* CataractT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CataractT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* CataractTViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CataractTViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* CataractTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CataractTViewController.h; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* CataractT_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CataractT_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* CataractT-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "CataractT-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		BC0A8D6D12E2B6D30094E749 /* EditImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditImageViewController.h; sourceTree = "<group>"; };
+		BC0A8D6E12E2B6D30094E749 /* EditImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditImageViewController.m; sourceTree = "<group>"; };
+		BC0A8D6F12E2B6D30094E749 /* EditImageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = EditImageViewController.xib; path = Classes/EditImageViewController.xib; sourceTree = "<group>"; };
+		BC0A8FF512E3C0750094E749 /* AlgorithmRefineViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlgorithmRefineViewController.xib; sourceTree = "<group>"; };
+		BC0A8FF912E3C0830094E749 /* AlgorithmRefineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlgorithmRefineViewController.h; sourceTree = "<group>"; };
+		BC0A8FFA12E3C0830094E749 /* AlgorithmRefineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlgorithmRefineViewController.m; sourceTree = "<group>"; };
+		BC0A903412E3D82C0094E749 /* CropDrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CropDrawView.h; sourceTree = "<group>"; };
+		BC0A903512E3D82C0094E749 /* CropDrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CropDrawView.m; sourceTree = "<group>"; };
+		BC66341A12F4DAE3007228D9 /* CameraImages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraImages.h; sourceTree = "<group>"; };
+		BC66341B12F4DAE3007228D9 /* CameraImages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraImages.m; sourceTree = "<group>"; };
+		BC66341C12F4DAE3007228D9 /* UIImageAlpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageAlpha.h; sourceTree = "<group>"; };
+		BC66341D12F4DAE3007228D9 /* UIImageAlpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageAlpha.m; sourceTree = "<group>"; };
+		BC66341E12F4DAE3007228D9 /* UIImageResize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageResize.h; sourceTree = "<group>"; };
+		BC66341F12F4DAE3007228D9 /* UIImageResize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageResize.m; sourceTree = "<group>"; };
+		BC66342012F4DAE3007228D9 /* UIImageRoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageRoundedCorner.h; sourceTree = "<group>"; };
+		BC66342112F4DAE3007228D9 /* UIImageRoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageRoundedCorner.m; sourceTree = "<group>"; };
+		BC8B2D3912F22B9A002B965F /* CompileFlags.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompileFlags.h; sourceTree = "<group>"; };
+		BCC886BF133827A20074D26B /* cataractT.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cataractT.png; sourceTree = "<group>"; };
+		E140A38812EC8D8200F84896 /* whiteButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteButton.png; sourceTree = "<group>"; };
+		E140A38912EC8D8200F84896 /* blueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueButton.png; sourceTree = "<group>"; };
+		E163077E12F48BDB009C746A /* DiagnosisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiagnosisViewController.h; sourceTree = "<group>"; };
+		E163077F12F48BDB009C746A /* DiagnosisViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = DiagnosisViewController.mm; sourceTree = "<group>"; };
+		E163078012F48BDB009C746A /* DiagnosisViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = DiagnosisViewController.xib; path = Classes/DiagnosisViewController.xib; sourceTree = "<group>"; };
+		E170104512F4C5A7007CC3AC /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
+		E170104612F4C5A7007CC3AC /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		E170104712F4C5A7007CC3AC /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10.png; sourceTree = "<group>"; };
+		E170104812F4C5A7007CC3AC /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		E170104912F4C5A7007CC3AC /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		E170104A12F4C5A7007CC3AC /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		E170104B12F4C5A7007CC3AC /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		E170104C12F4C5A7007CC3AC /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		E170104D12F4C5A7007CC3AC /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		E170104E12F4C5A7007CC3AC /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		E170104F12F4C5A7007CC3AC /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
+		E170106012F4C928007CC3AC /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10.png; sourceTree = "<group>"; };
+		E170108412F4CC39007CC3AC /* graphBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = graphBackground.png; sourceTree = "<group>"; };
+		E1E369A1132036C5004DD2AB /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		E1FBD0FD12E89EE2006D0954 /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		E1FBD0FE12E89EE2006D0954 /* Image.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Image.mm; sourceTree = "<group>"; };
+		E1FBD0FF12E89EE2006D0954 /* ImageProcessingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageProcessingController.h; sourceTree = "<group>"; };
+		E1FBD10012E89EE2006D0954 /* ImageProcessingController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ImageProcessingController.mm; sourceTree = "<group>"; };
+		E1FBD17312E8BE19006D0954 /* DefinedRatings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DefinedRatings.h; sourceTree = "<group>"; };
+		F4331A8312EF6C05000C916F /* AVCamCaptureManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCamCaptureManager.h; sourceTree = "<group>"; };
+		F4331A8412EF6C05000C916F /* AVCamCaptureManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCamCaptureManager.m; sourceTree = "<group>"; };
+		F4331A8512EF6C05000C916F /* AVCamPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCamPreviewView.h; sourceTree = "<group>"; };
+		F4331A8612EF6C05000C916F /* AVCamPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCamPreviewView.m; sourceTree = "<group>"; };
+		F4331A8712EF6C05000C916F /* AVCamViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCamViewController.h; sourceTree = "<group>"; };
+		F4331A8812EF6C05000C916F /* AVCamViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCamViewController.m; sourceTree = "<group>"; };
+		F4331A8C12EF6C12000C916F /* AVCamViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AVCamViewController.xib; sourceTree = "<group>"; };
+		F4331A8E12EF6C2D000C916F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F4331A8F12EF6C2D000C916F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F4331A9012EF6C2D000C916F /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		F4331A9112EF6C2D000C916F /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		F4331A9F12EF6CC8000C916F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F4331AA312EF6CEA000C916F /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		F4331AA512EF6CEA000C916F /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		F4331AC312EF6D2E000C916F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F4331AC512EF6D2E000C916F /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		F4331AC712EF6D2E000C916F /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		F4331ACB12EF6D5F000C916F /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		F4331B1D12EF6D9F000C916F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1E369A2132036C5004DD2AB /* MessageUI.framework in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				F4331AA012EF6CC8000C916F /* AVFoundation.framework in Frameworks */,
+				F4331AA412EF6CEA000C916F /* AssetsLibrary.framework in Frameworks */,
+				F4331AA612EF6CEA000C916F /* MobileCoreServices.framework in Frameworks */,
+				F4331AC412EF6D2E000C916F /* CoreData.framework in Frameworks */,
+				F4331AC612EF6D2E000C916F /* CoreMedia.framework in Frameworks */,
+				F4331AC812EF6D2E000C916F /* CoreVideo.framework in Frameworks */,
+				F4331ACC12EF6D5F000C916F /* CoreVideo.framework in Frameworks */,
+				F4331B1E12EF6D9F000C916F /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BC66341A12F4DAE3007228D9 /* CameraImages.h */,
+				BC66341B12F4DAE3007228D9 /* CameraImages.m */,
+				BC66341C12F4DAE3007228D9 /* UIImageAlpha.h */,
+				BC66341D12F4DAE3007228D9 /* UIImageAlpha.m */,
+				BC66341E12F4DAE3007228D9 /* UIImageResize.h */,
+				BC66341F12F4DAE3007228D9 /* UIImageResize.m */,
+				BC66342012F4DAE3007228D9 /* UIImageRoundedCorner.h */,
+				BC66342112F4DAE3007228D9 /* UIImageRoundedCorner.m */,
+				E1FBD17312E8BE19006D0954 /* DefinedRatings.h */,
+				BC0A903412E3D82C0094E749 /* CropDrawView.h */,
+				BC0A903512E3D82C0094E749 /* CropDrawView.m */,
+				F4331A8312EF6C05000C916F /* AVCamCaptureManager.h */,
+				F4331A8412EF6C05000C916F /* AVCamCaptureManager.m */,
+				F4331A8512EF6C05000C916F /* AVCamPreviewView.h */,
+				F4331A8612EF6C05000C916F /* AVCamPreviewView.m */,
+				F4331A8712EF6C05000C916F /* AVCamViewController.h */,
+				F4331A8812EF6C05000C916F /* AVCamViewController.m */,
+				BC0A8FF912E3C0830094E749 /* AlgorithmRefineViewController.h */,
+				BC0A8FFA12E3C0830094E749 /* AlgorithmRefineViewController.m */,
+				1D3623240D0F684500981E51 /* CataractTAppDelegate.h */,
+				1D3623250D0F684500981E51 /* CataractTAppDelegate.m */,
+				E163077E12F48BDB009C746A /* DiagnosisViewController.h */,
+				E163077F12F48BDB009C746A /* DiagnosisViewController.mm */,
+				28D7ACF60DDB3853001CB0EB /* CataractTViewController.h */,
+				121AEAC712ECBCA20024EC07 /* CataractTViewController.mm */,
+				BC0A8D6D12E2B6D30094E749 /* EditImageViewController.h */,
+				BC0A8D6E12E2B6D30094E749 /* EditImageViewController.m */,
+				E1FBD0FD12E89EE2006D0954 /* Image.h */,
+				E1FBD0FE12E89EE2006D0954 /* Image.mm */,
+				E1FBD0FF12E89EE2006D0954 /* ImageProcessingController.h */,
+				E1FBD10012E89EE2006D0954 /* ImageProcessingController.mm */,
+				BC8B2D3912F22B9A002B965F /* CompileFlags.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		121AEB0B12ECC1390024EC07 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				121AEB0C12ECC1390024EC07 /* DilatedPupil */,
+				121AEB1A12ECC13A0024EC07 /* Mature Cataract */,
+				121AEB3612ECC13B0024EC07 /* Uncategorized */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		121AEB0C12ECC1390024EC07 /* DilatedPupil */ = {
+			isa = PBXGroup;
+			children = (
+				121AEB0D12ECC1390024EC07 /* Crop */,
+				121AEB1412ECC1390024EC07 /* DilatedPupil1.jpg */,
+				121AEB1512ECC1390024EC07 /* DilatedPupil2.jpg */,
+				121AEB1612ECC1390024EC07 /* DilatedPupil3.jpg */,
+				121AEB1712ECC13A0024EC07 /* DilatedPupil4.jpg */,
+				121AEB1812ECC13A0024EC07 /* DilatedPupil5.jpg */,
+				121AEB1912ECC13A0024EC07 /* DilatedPupil6.jpg */,
+			);
+			path = DilatedPupil;
+			sourceTree = "<group>";
+		};
+		121AEB0D12ECC1390024EC07 /* Crop */ = {
+			isa = PBXGroup;
+			children = (
+				121AEB0E12ECC1390024EC07 /* DilatedPupil1_crop.jpg */,
+				121AEB0F12ECC1390024EC07 /* DilatedPupil2_crop.jpg */,
+				121AEB1012ECC1390024EC07 /* DilatedPupil3_crop.jpg */,
+				121AEB1112ECC1390024EC07 /* DilatedPupil4_crop.gif */,
+				121AEB1212ECC1390024EC07 /* DilatedPupil5_crop.jpg */,
+				121AEB1312ECC1390024EC07 /* DilatedPupil6_crop.jpg */,
+			);
+			path = Crop;
+			sourceTree = "<group>";
+		};
+		121AEB1A12ECC13A0024EC07 /* Mature Cataract */ = {
+			isa = PBXGroup;
+			children = (
+				121AEB1B12ECC13A0024EC07 /* Crop */,
+				121AEB2312ECC13A0024EC07 /* MatureCataract_1.JPG */,
+				121AEB2412ECC13A0024EC07 /* MatureCataract_2.jpg */,
+				121AEB2512ECC13A0024EC07 /* MatureCataract_3.jpg */,
+				121AEB2612ECC13A0024EC07 /* MatureCataract_4.jpg */,
+				121AEB2712ECC13A0024EC07 /* MatureCataract_5.jpg */,
+				121AEB2812ECC13A0024EC07 /* MatureCataract_6.jpg */,
+				121AEB2912ECC13A0024EC07 /* MatureCataract_8.jpg */,
+			);
+			path = "Mature Cataract";
+			sourceTree = "<group>";
+		};
+		121AEB1B12ECC13A0024EC07 /* Crop */ = {
+			isa = PBXGroup;
+			children = (
+				121AEB1C12ECC13A0024EC07 /* MatureCataract_1_crop.png */,
+				121AEB1D12ECC13A0024EC07 /* MatureCataract_2_crop.jpg */,
+				121AEB1E12ECC13A0024EC07 /* MatureCataract_3_crop.jpg */,
+				121AEB1F12ECC13A0024EC07 /* MatureCataract_4_crop.jpg */,
+				121AEB2012ECC13A0024EC07 /* MatureCataract_5_crop.jpg */,
+				121AEB2112ECC13A0024EC07 /* MatureCataract_6_crop.jpg */,
+				121AEB2212ECC13A0024EC07 /* MatureCataract_8_crop.jpg */,
+			);
+			path = Crop;
+			sourceTree = "<group>";
+		};
+		121AEB3612ECC13B0024EC07 /* Uncategorized */ = {
+			isa = PBXGroup;
+			children = (
+				121AEB3712ECC13B0024EC07 /* 0 */,
+				121AEB3F12ECC13B0024EC07 /* anterior-polar-1.png */,
+				121AEB4012ECC13B0024EC07 /* coppock-1.png */,
+				121AEB4112ECC13B0024EC07 /* coronary-1.png */,
+				121AEB4212ECC13B0024EC07 /* coronary-2.png */,
+				121AEB4312ECC13B0024EC07 /* Crop */,
+				121AEB4E12ECC13C0024EC07 /* cuneiform-cortical-1.png */,
+				121AEB4F12ECC13C0024EC07 /* intumescent-immature-senile.png */,
+				121AEB5012ECC13C0024EC07 /* lamellar-1.png */,
+				121AEB5112ECC13C0024EC07 /* mature-senile-1.png */,
+				121AEB5212ECC13C0024EC07 /* morgagnian-1.png */,
+				121AEB5312ECC13C0024EC07 /* punctate-cerulea-1.png */,
+				121AEB5412ECC13C0024EC07 /* red-anterior-1.png */,
+				121AEB5512ECC13C0024EC07 /* red-cortical-1.png */,
+				121AEB5612ECC13C0024EC07 /* red-sutural-1.png */,
+				121AEB5712ECC13C0024EC07 /* red-unk-1.png */,
+				121AEB5812ECC13C0024EC07 /* red-unk-2.png */,
+				121AEB5912ECC13C0024EC07 /* red-unk-3.png */,
+				121AEB5A12ECC13C0024EC07 /* senile-1.png */,
+				121AEB5B12ECC13C0024EC07 /* senile-2.png */,
+				121AEB5C12ECC13C0024EC07 /* sutural-1.png */,
+				121AEB5D12ECC13C0024EC07 /* sutural-2.png */,
+				121AEB5E12ECC13C0024EC07 /* sutural-3.png */,
+				121AEB5F12ECC13C0024EC07 /* unk-1.png */,
+				121AEB6012ECC13C0024EC07 /* zonular-1.png */,
+			);
+			path = Uncategorized;
+			sourceTree = "<group>";
+		};
+		121AEB3712ECC13B0024EC07 /* 0 */ = {
+			isa = PBXGroup;
+			children = (
+				121AEB3812ECC13B0024EC07 /* eye2.jpg */,
+				121AEB3912ECC13B0024EC07 /* eye3.jpg */,
+				121AEB3A12ECC13B0024EC07 /* eye4.jpg */,
+				121AEB3B12ECC13B0024EC07 /* eye5.jpg */,
+				121AEB3C12ECC13B0024EC07 /* immature-senile-1.jpg */,
+				121AEB3D12ECC13B0024EC07 /* mature-senile-1.jpg */,
+				121AEB3E12ECC13B0024EC07 /* mature-senile-2.jpg */,
+			);
+			path = 0;
+			sourceTree = "<group>";
+		};
+		121AEB4312ECC13B0024EC07 /* Crop */ = {
+			isa = PBXGroup;
+			children = (
+				121AEB4412ECC13B0024EC07 /* anterior-polar-1_crop.png */,
+				121AEB4512ECC13C0024EC07 /* coronary-1_crop.png */,
+				121AEB4612ECC13C0024EC07 /* coronary-2_crop.png */,
+				121AEB4712ECC13C0024EC07 /* cuneiform-cortical-1_crop.png */,
+				121AEB4912ECC13C0024EC07 /* morgagnian-1_crop.png */,
+				121AEB4A12ECC13C0024EC07 /* punctate-cerulea-1_crop.png */,
+				121AEB4B12ECC13C0024EC07 /* sutural-1_crop.png */,
+				121AEB4C12ECC13C0024EC07 /* sutural-2_crop.png */,
+				121AEB4D12ECC13C0024EC07 /* zonular-1_crop.png */,
+			);
+			path = Crop;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* CataractT.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* CataractT_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				121AEB0B12ECC1390024EC07 /* Images */,
+				E170104412F4C5A7007CC3AC /* bars */,
+				F4331A8C12EF6C12000C916F /* AVCamViewController.xib */,
+				BCC886BF133827A20074D26B /* cataractT.png */,
+				E140A38812EC8D8200F84896 /* whiteButton.png */,
+				E140A38912EC8D8200F84896 /* blueButton.png */,
+				F4331A8E12EF6C2D000C916F /* Default.png */,
+				F4331A8F12EF6C2D000C916F /* Default@2x.png */,
+				F4331A9012EF6C2D000C916F /* Icon.png */,
+				F4331A9112EF6C2D000C916F /* Icon@2x.png */,
+				2899E5210DE3E06400AC0155 /* CataractTViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				BC0A8FF512E3C0750094E749 /* AlgorithmRefineViewController.xib */,
+				E163078012F48BDB009C746A /* DiagnosisViewController.xib */,
+				BC0A8D6F12E2B6D30094E749 /* EditImageViewController.xib */,
+				8D1107310486CEB800E47090 /* CataractT-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4331AC312EF6D2E000C916F /* CoreData.framework */,
+				F4331AC512EF6D2E000C916F /* CoreMedia.framework */,
+				F4331AC712EF6D2E000C916F /* CoreVideo.framework */,
+				F4331ACB12EF6D5F000C916F /* CoreVideo.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				F4331A9F12EF6CC8000C916F /* AVFoundation.framework */,
+				F4331AA312EF6CEA000C916F /* AssetsLibrary.framework */,
+				F4331AA512EF6CEA000C916F /* MobileCoreServices.framework */,
+				E1E369A1132036C5004DD2AB /* MessageUI.framework */,
+				F4331B1D12EF6D9F000C916F /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E170104412F4C5A7007CC3AC /* bars */ = {
+			isa = PBXGroup;
+			children = (
+				E170108412F4CC39007CC3AC /* graphBackground.png */,
+				E170104512F4C5A7007CC3AC /* 0.png */,
+				E170104612F4C5A7007CC3AC /* 1.png */,
+				E170104712F4C5A7007CC3AC /* 10.png */,
+				E170104812F4C5A7007CC3AC /* 2.png */,
+				E170104912F4C5A7007CC3AC /* 3.png */,
+				E170104A12F4C5A7007CC3AC /* 4.png */,
+				E170104B12F4C5A7007CC3AC /* 5.png */,
+				E170104C12F4C5A7007CC3AC /* 6.png */,
+				E170104D12F4C5A7007CC3AC /* 7.png */,
+				E170104E12F4C5A7007CC3AC /* 8.png */,
+				E170104F12F4C5A7007CC3AC /* 9.png */,
+				E170106012F4C928007CC3AC /* 10.png */,
+			);
+			path = bars;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* CataractT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "CataractT" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CataractT;
+			productName = CataractT;
+			productReference = 1D6058910D05DD3D006BFB54 /* CataractT.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CataractT" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* CataractT */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* CataractTViewController.xib in Resources */,
+				BC0A8D7112E2B6D30094E749 /* EditImageViewController.xib in Resources */,
+				BC0A8FF612E3C0750094E749 /* AlgorithmRefineViewController.xib in Resources */,
+				E140A38A12EC8D8200F84896 /* whiteButton.png in Resources */,
+				E140A38B12EC8D8200F84896 /* blueButton.png in Resources */,
+				121AEB6112ECC13C0024EC07 /* DilatedPupil1_crop.jpg in Resources */,
+				121AEB6212ECC13C0024EC07 /* DilatedPupil2_crop.jpg in Resources */,
+				121AEB6312ECC13C0024EC07 /* DilatedPupil3_crop.jpg in Resources */,
+				121AEB6412ECC13C0024EC07 /* DilatedPupil4_crop.gif in Resources */,
+				121AEB6512ECC13C0024EC07 /* DilatedPupil5_crop.jpg in Resources */,
+				121AEB6612ECC13C0024EC07 /* DilatedPupil6_crop.jpg in Resources */,
+				121AEB6712ECC13C0024EC07 /* DilatedPupil1.jpg in Resources */,
+				121AEB6812ECC13C0024EC07 /* DilatedPupil2.jpg in Resources */,
+				121AEB6912ECC13C0024EC07 /* DilatedPupil3.jpg in Resources */,
+				121AEB6A12ECC13C0024EC07 /* DilatedPupil4.jpg in Resources */,
+				121AEB6B12ECC13C0024EC07 /* DilatedPupil5.jpg in Resources */,
+				121AEB6C12ECC13C0024EC07 /* DilatedPupil6.jpg in Resources */,
+				121AEB6D12ECC13C0024EC07 /* MatureCataract_1_crop.png in Resources */,
+				121AEB6E12ECC13C0024EC07 /* MatureCataract_2_crop.jpg in Resources */,
+				121AEB6F12ECC13C0024EC07 /* MatureCataract_3_crop.jpg in Resources */,
+				121AEB7012ECC13C0024EC07 /* MatureCataract_4_crop.jpg in Resources */,
+				121AEB7112ECC13C0024EC07 /* MatureCataract_5_crop.jpg in Resources */,
+				121AEB7212ECC13C0024EC07 /* MatureCataract_6_crop.jpg in Resources */,
+				121AEB7312ECC13C0024EC07 /* MatureCataract_8_crop.jpg in Resources */,
+				121AEB7412ECC13C0024EC07 /* MatureCataract_1.JPG in Resources */,
+				121AEB7512ECC13C0024EC07 /* MatureCataract_2.jpg in Resources */,
+				121AEB7612ECC13C0024EC07 /* MatureCataract_3.jpg in Resources */,
+				121AEB7712ECC13C0024EC07 /* MatureCataract_4.jpg in Resources */,
+				121AEB7812ECC13C0024EC07 /* MatureCataract_5.jpg in Resources */,
+				121AEB7912ECC13C0024EC07 /* MatureCataract_6.jpg in Resources */,
+				121AEB7A12ECC13C0024EC07 /* MatureCataract_8.jpg in Resources */,
+				121AEB8312ECC13C0024EC07 /* eye2.jpg in Resources */,
+				121AEB8412ECC13C0024EC07 /* eye3.jpg in Resources */,
+				121AEB8512ECC13C0024EC07 /* eye4.jpg in Resources */,
+				121AEB8612ECC13C0024EC07 /* eye5.jpg in Resources */,
+				121AEB8712ECC13C0024EC07 /* immature-senile-1.jpg in Resources */,
+				121AEB8812ECC13C0024EC07 /* mature-senile-1.jpg in Resources */,
+				121AEB8912ECC13C0024EC07 /* mature-senile-2.jpg in Resources */,
+				121AEB8A12ECC13C0024EC07 /* anterior-polar-1.png in Resources */,
+				121AEB8B12ECC13C0024EC07 /* coppock-1.png in Resources */,
+				121AEB8C12ECC13C0024EC07 /* coronary-1.png in Resources */,
+				121AEB8D12ECC13C0024EC07 /* coronary-2.png in Resources */,
+				121AEB8E12ECC13C0024EC07 /* anterior-polar-1_crop.png in Resources */,
+				121AEB8F12ECC13C0024EC07 /* coronary-1_crop.png in Resources */,
+				121AEB9012ECC13C0024EC07 /* coronary-2_crop.png in Resources */,
+				121AEB9112ECC13C0024EC07 /* cuneiform-cortical-1_crop.png in Resources */,
+				121AEB9312ECC13C0024EC07 /* morgagnian-1_crop.png in Resources */,
+				121AEB9412ECC13C0024EC07 /* punctate-cerulea-1_crop.png in Resources */,
+				121AEB9512ECC13C0024EC07 /* sutural-1_crop.png in Resources */,
+				121AEB9612ECC13C0024EC07 /* sutural-2_crop.png in Resources */,
+				121AEB9712ECC13C0024EC07 /* zonular-1_crop.png in Resources */,
+				121AEB9812ECC13C0024EC07 /* cuneiform-cortical-1.png in Resources */,
+				121AEB9912ECC13C0024EC07 /* intumescent-immature-senile.png in Resources */,
+				121AEB9A12ECC13C0024EC07 /* lamellar-1.png in Resources */,
+				121AEB9B12ECC13C0024EC07 /* mature-senile-1.png in Resources */,
+				121AEB9C12ECC13C0024EC07 /* morgagnian-1.png in Resources */,
+				121AEB9D12ECC13C0024EC07 /* punctate-cerulea-1.png in Resources */,
+				121AEB9E12ECC13C0024EC07 /* red-anterior-1.png in Resources */,
+				121AEB9F12ECC13C0024EC07 /* red-cortical-1.png in Resources */,
+				121AEBA012ECC13C0024EC07 /* red-sutural-1.png in Resources */,
+				121AEBA112ECC13C0024EC07 /* red-unk-1.png in Resources */,
+				121AEBA212ECC13C0024EC07 /* red-unk-2.png in Resources */,
+				121AEBA312ECC13C0024EC07 /* red-unk-3.png in Resources */,
+				121AEBA412ECC13C0024EC07 /* senile-1.png in Resources */,
+				121AEBA512ECC13C0024EC07 /* senile-2.png in Resources */,
+				121AEBA612ECC13C0024EC07 /* sutural-1.png in Resources */,
+				121AEBA712ECC13C0024EC07 /* sutural-2.png in Resources */,
+				121AEBA812ECC13C0024EC07 /* sutural-3.png in Resources */,
+				121AEBA912ECC13C0024EC07 /* unk-1.png in Resources */,
+				121AEBAA12ECC13C0024EC07 /* zonular-1.png in Resources */,
+				F4331A8D12EF6C12000C916F /* AVCamViewController.xib in Resources */,
+				F4331A9212EF6C2D000C916F /* Default.png in Resources */,
+				F4331A9312EF6C2D000C916F /* Default@2x.png in Resources */,
+				F4331A9412EF6C2D000C916F /* Icon.png in Resources */,
+				F4331A9512EF6C2D000C916F /* Icon@2x.png in Resources */,
+				E163078212F48BDB009C746A /* DiagnosisViewController.xib in Resources */,
+				E170105012F4C5A7007CC3AC /* 0.png in Resources */,
+				E170105112F4C5A7007CC3AC /* 1.png in Resources */,
+				E170105212F4C5A7007CC3AC /* 10.png in Resources */,
+				E170105312F4C5A7007CC3AC /* 2.png in Resources */,
+				E170105412F4C5A7007CC3AC /* 3.png in Resources */,
+				E170105512F4C5A7007CC3AC /* 4.png in Resources */,
+				E170105612F4C5A7007CC3AC /* 5.png in Resources */,
+				E170105712F4C5A7007CC3AC /* 6.png in Resources */,
+				E170105812F4C5A7007CC3AC /* 7.png in Resources */,
+				E170105912F4C5A7007CC3AC /* 8.png in Resources */,
+				E170105A12F4C5A7007CC3AC /* 9.png in Resources */,
+				E170106112F4C928007CC3AC /* 10.png in Resources */,
+				E170108512F4CC39007CC3AC /* graphBackground.png in Resources */,
+				BCC886C0133827A20074D26B /* cataractT.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* CataractTAppDelegate.m in Sources */,
+				BC0A8D7012E2B6D30094E749 /* EditImageViewController.m in Sources */,
+				BC0A8FFB12E3C0830094E749 /* AlgorithmRefineViewController.m in Sources */,
+				BC0A903612E3D82C0094E749 /* CropDrawView.m in Sources */,
+				E1FBD10112E89EE2006D0954 /* Image.mm in Sources */,
+				E1FBD10212E89EE2006D0954 /* ImageProcessingController.mm in Sources */,
+				121AEAC812ECBCA20024EC07 /* CataractTViewController.mm in Sources */,
+				F4331A8912EF6C05000C916F /* AVCamCaptureManager.m in Sources */,
+				F4331A8A12EF6C05000C916F /* AVCamPreviewView.m in Sources */,
+				F4331A8B12EF6C05000C916F /* AVCamViewController.m in Sources */,
+				E163078112F48BDB009C746A /* DiagnosisViewController.mm in Sources */,
+				BC66342212F4DAE3007228D9 /* CameraImages.m in Sources */,
+				BC66342312F4DAE3007228D9 /* UIImageAlpha.m in Sources */,
+				BC66342412F4DAE3007228D9 /* UIImageResize.m in Sources */,
+				BC66342512F4DAE3007228D9 /* UIImageRoundedCorner.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CataractT_Prefix.pch;
+				GCC_VERSION = "";
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = NO;
+				INFOPLIST_FILE = "CataractT-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.1;
+				PRODUCT_NAME = CataractT;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos4.2;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = CataractT_Prefix.pch;
+				INFOPLIST_FILE = "CataractT-Info.plist";
+				PRODUCT_NAME = CataractT;
+				SDKROOT = iphoneos4.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "Don't Code Sign";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Don't Code Sign";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos4.2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "CataractT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CataractT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
